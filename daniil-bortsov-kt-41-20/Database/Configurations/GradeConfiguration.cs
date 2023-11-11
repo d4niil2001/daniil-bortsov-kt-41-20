@@ -40,6 +40,12 @@ namespace daniil_bortsov_kt_41_20.Database.Configurations
                .HasColumnType(ColumnType.Int).HasMaxLength(100)
                .HasComment("Идентификатор предмета");
 
+            builder.Property(p => p.Year)
+             .IsRequired()
+             .HasColumnName("year")
+             .HasColumnType(ColumnType.Int).HasMaxLength(100)
+             .HasComment("Год");
+
             builder.ToTable(TableName)
                .HasOne(p => p.Student)
                .WithMany()

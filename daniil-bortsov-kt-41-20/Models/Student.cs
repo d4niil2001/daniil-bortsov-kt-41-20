@@ -5,7 +5,7 @@
         public int StudentId { get; set; }
         public string StudentName { get; set; }
         public string StudentSurname { get; set; }
-        public int StudentMidname { get; set; }
+        public string StudentMidname { get; set; }
         public int GroupId { get; set; }
         public Group Group { get; set; }
     }
