@@ -2,7 +2,9 @@
 {
     public class MarkStudentFilter
     {
-        public string Name {  get; set; }
-        public string Subject { get; set; }
+        public string? Name { get; set; }
+        public string? Surname { get; set; }
+        public string? Midname { get; set; }
+        public string? Subject { get; set; }
     }
 }

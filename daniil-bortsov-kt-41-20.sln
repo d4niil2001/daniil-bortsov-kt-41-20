@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "daniil-bortsov-kt-41-20", "daniil-bortsov-kt-41-20\daniil-bortsov-kt-41-20.csproj", "{4F394506-1D25-48C2-A04F-848EE70C28EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "daniil-bortsov-kt-41-20", "daniil-bortsov-kt-41-20\daniil-bortsov-kt-41-20.csproj", "{4F394506-1D25-48C2-A04F-848EE70C28EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "daniilbortsov-kt-41-20.Tests", "daniilbortsov-kt-41-20.Tests\daniilbortsov-kt-41-20.Tests.csproj", "{DDC2B834-19A0-41EA-95EB-41EFCC8B0CBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4F394506-1D25-48C2-A04F-848EE70C28EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F394506-1D25-48C2-A04F-848EE70C28EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F394506-1D25-48C2-A04F-848EE70C28EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC2B834-19A0-41EA-95EB-41EFCC8B0CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC2B834-19A0-41EA-95EB-41EFCC8B0CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC2B834-19A0-41EA-95EB-41EFCC8B0CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC2B834-19A0-41EA-95EB-41EFCC8B0CBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

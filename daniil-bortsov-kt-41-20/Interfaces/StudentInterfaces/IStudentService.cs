@@ -25,7 +25,7 @@ namespace daniil_bortsov_kt_41_20.Interfaces.IStudentInterfaces
 
         public Task<int[]> GetMarksByStudentAsync(MarkStudentFilter filter, CancellationToken cancellationToken = default)
         {
-            var marks = _dbContext.Set<Grade>().Where(d => d.Student.StudentName == filter.Name && d.Subject.SubjectName == filter.Subject).Select(t => t.Mark).ToArrayAsync(cancellationToken);
+            var marks = _dbContext.Set<Grade>().Where(d => d.Student.StudentSurname == filter.Surname && d.Student.StudentName == filter.Name && d.Student.StudentMidname == filter.Midname && d.Subject.SubjectName == filter.Subject).Select(t => t.Mark).ToArrayAsync(cancellationToken);
             return marks;
         }
 
@@ -40,5 +40,7 @@ namespace daniil_bortsov_kt_41_20.Interfaces.IStudentInterfaces
             var gpa = _dbContext.Set<Grade>().Where(d => d.Year == filter.Year).Average(d => d.Mark);
             return Task.FromResult(gpa);
         }
+
+       
     }
 }
